@@ -7,7 +7,7 @@
     </style>
 
     <style name="ThemeOverlay.App.CircularProgressIndicator" parent="">
-        <item name="colorPrimary">@color/shrine_pink_100</item>
+        <item name="colorPrimary">@color/AppBlue</item>
     </style>
 
     <style name="BottomNavigationTheme" parent="ThemeOverlay.AppCompat.Light">

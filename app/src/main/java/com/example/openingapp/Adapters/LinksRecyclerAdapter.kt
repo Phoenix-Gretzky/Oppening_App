@@ -122,7 +122,7 @@ class LinksRecyclerAdapter(context: Context, linksLinks: MutableList<Links>) :
         binding.copyUrlIcon
 
         Glide.with(mContext.applicationContext)
-            .load(R.drawable.copy_ic)
+            .load(R.drawable.files_ic)
             .placeholder(R.drawable.image_loading)
             .error(R.drawable.error_icon)
             .into(binding.copyUrlIcon)

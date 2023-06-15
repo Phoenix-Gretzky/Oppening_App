@@ -10,7 +10,7 @@
 
     <item
         android:id="@+id/Courses"
-        android:icon="@drawable/global_ic"
+        android:icon="@drawable/courses_ic"
         android:enabled="false"
         android:title="Courses" />
 
@@ -22,7 +22,7 @@
 
     <item
         android:id="@+id/Campaign"
-        android:icon="@drawable/global_ic"
+        android:icon="@drawable/campaign_ic"
          android:enabled="false"
         android:title="Campaign" />
 
