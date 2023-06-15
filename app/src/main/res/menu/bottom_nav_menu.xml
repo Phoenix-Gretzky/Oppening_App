@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Links"
+        android:icon="@drawable/hyperlink_ic"
+        android:checked="true"
+        android:title="Links" />
+
+    <item
+        android:id="@+id/Courses"
+        android:icon="@drawable/global_ic"
+        android:enabled="false"
+        android:title="Courses" />
+
+
+    <item
+        android:id="@+id/empty"
+        android:title=""
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/Campaign"
+        android:icon="@drawable/global_ic"
+         android:enabled="false"
+        android:title="Campaign" />
+
+    <item
+        android:id="@+id/Profile"
+        android:icon="@drawable/profile_ic"
+         android:enabled="false"
+        android:title="Profile" />
+
+</menu>

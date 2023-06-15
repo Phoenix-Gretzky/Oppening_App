@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape android:shape="oval">
+            <solid
+                android:angle="270"
+                android:color="#ffffff" />
+
+        </shape>
+    </item>
+
+
+    <item
+        android:width="20dp"
+        android:height="20dp"
+        android:gravity="center">
+        <animated-rotate
+            android:bottom="16dp"
+            android:drawable="@drawable/loading"
+            android:left="16dp"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:right="16dp"
+            android:top="16dp"
+
+            />
+
+
+    </item>
+
+
+</layer-list>

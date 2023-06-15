@@ -1,0 +1,162 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!--    To Set The View Text Size-->
+    <dimen name="large_heading_text_Size_Small">26dp</dimen>
+    <dimen name="large_heading_text_Size_Medium">30dp</dimen>
+    <dimen name="large_heading_text_Size_Medium_Large">35dp</dimen>
+    <dimen name="large_heading_text_Size_Large">40dp</dimen>
+    <dimen name="large_heading_text_Size_Extra_Large">44dp</dimen>
+    <dimen name="large_heading_text_Size_double_Extra_Large">48dp</dimen>
+    <dimen name="large_heading_text_Size_triple_Extra_Large">53dp</dimen>
+    <dimen name="large_heading_text_Size_default">58dp</dimen>
+    <!-- End-->
+
+    <!--    To Set The View Text Size-->
+    <dimen name="heading_text_Size_Small">16dp</dimen>
+    <dimen name="heading_text_Size_Medium">19dp</dimen>
+    <dimen name="heading_text_Size_Medium_Large">22dp</dimen>
+    <dimen name="heading_text_Size_Large">24dp</dimen>
+    <dimen name="heading_text_Size_Extra_Large">27dp</dimen>
+    <dimen name="heading_text_Size_double_Extra_Large">30dp</dimen>
+    <dimen name="heading_text_Size_triple_Extra_Large">33dp</dimen>
+    <dimen name="heading_text_Size_default">35dp</dimen>
+    <!-- End-->
+
+    <!--    To Set The View Text Size-->
+    <dimen name="text_Size_Small">12dp</dimen>
+    <dimen name="text_Size_Medium">14dp</dimen>
+    <dimen name="text_Size_Medium_Large">16dp</dimen>
+    <dimen name="text_Size_Large">18dp</dimen>
+    <dimen name="text_Size_Extra_Large">20dp</dimen>
+    <dimen name="text_Size_double_Extra_Large">21dp</dimen>
+    <dimen name="text_Size_triple_Extra_Large">22dp</dimen>
+    <dimen name="text_Size_default">10dp</dimen>
+    <!-- End-->
+
+
+    <!--    To Set The View Text Size-->
+    <dimen name="text_small_Size_Small">12dp</dimen>
+    <dimen name="text_small_Size_Medium">13dp</dimen>
+    <dimen name="text_small_Size_Medium_Large">15dp</dimen>
+    <dimen name="text_small_Size_Large">17dp</dimen>
+    <dimen name="text_small_Size_Extra_Large">19dp</dimen>
+    <dimen name="text_small_Size_double_Extra_Large">21dp</dimen>
+    <dimen name="text_small_Size_triple_Extra_Large">23dp</dimen>
+    <dimen name="text_small_Size_default">12dp</dimen>
+    <!-- End-->
+
+
+    <!--    To Set The View Text Size-->
+    <dimen name="text_medium_small_Size_Small">10dp</dimen>
+    <dimen name="text_medium_small_Size_Medium">11dp</dimen>
+    <dimen name="text_medium_small_Size_Medium_Large">13dp</dimen>
+    <dimen name="text_medium_small_Size_Large">15dp</dimen>
+    <dimen name="text_medium_small_Size_Extra_Large">17dp</dimen>
+    <dimen name="text_medium_small_Size_double_Extra_Large">19dp</dimen>
+    <dimen name="text_medium_small_Size_triple_Extra_Large">21dp</dimen>
+    <dimen name="text_medium_small_Size_default">11dp</dimen>
+    <!-- End-->
+
+
+    <!--    To Set The View Text Size-->
+    <dimen name="text_Heading_Size_Small">16dp</dimen>
+    <dimen name="text_Heading_Size_Medium">17dp</dimen>
+    <dimen name="text_Heading_Size_Medium_Large">19dp</dimen>
+    <dimen name="text_Heading_Size_Large">21dp</dimen>
+    <dimen name="text_Heading_Size_Extra_Large">22dp</dimen>
+    <dimen name="text_Heading_Size_double_Extra_Large">24dp</dimen>
+    <dimen name="text_Heading_Size_triple_Extra_Large">25dp</dimen>
+    <dimen name="text_Heading_Size_default">10dp</dimen>
+    <!-- End-->
+
+
+    <dimen name="verysmall_img_Size_default">10dp</dimen>
+    <dimen name="verysmall_img_Size_Small">12dp</dimen>
+    <dimen name="verysmall_img_Size_Medium">13dp</dimen>
+    <dimen name="verysmall_img_Size_Medium_Large">14dp</dimen>
+    <dimen name="verysmall_img_Size_Large">15dp</dimen>
+    <dimen name="verysmall_img_Size_Extra_Large">17dp</dimen>
+    <dimen name="verysmall_img_Size_double_Extra_Large">18dp</dimen>
+    <dimen name="verysmall_img_Size_triple_Extra_Large">19dp</dimen>
+
+
+    <dimen name="small_img_Size_default">10dp</dimen>
+    <dimen name="small_img_Size_Small">19dp</dimen>
+    <dimen name="small_img_Size_Medium">20dp</dimen>
+    <dimen name="small_img_Size_Medium_Large">22dp</dimen>
+    <dimen name="small_img_Size_Large">23dp</dimen>
+    <dimen name="small_img_Size_Extra_Large">24dp</dimen>
+    <dimen name="small_img_Size_double_Extra_Large">26dp</dimen>
+    <dimen name="small_img_Size_triple_Extra_Large">28dp</dimen>
+
+    <dimen name="Medium_img_Size_default">29dp</dimen>
+    <dimen name="Medium_img_Size_Small">30dp</dimen>
+    <dimen name="Medium_img_Size_Medium">32dp</dimen>
+    <dimen name="Medium_img_Size_Medium_Large">34dp</dimen>
+    <dimen name="Medium_img_Size_Large">37dp</dimen>
+    <dimen name="Medium_img_Size_Extra_Large">40dp</dimen>
+    <dimen name="Medium_img_Size_double_Extra_Large">41dp</dimen>
+    <dimen name="Medium_img_Size_triple_Extra_Large">43dp</dimen>
+
+    <dimen name="Medium_large_img_Size_default">42dp</dimen>
+    <dimen name="Medium_large_img_Size_Small">43dp</dimen>
+    <dimen name="Medium_large_img_Size_Medium">44dp</dimen>
+    <dimen name="Medium_large_img_Size_Medium_Large">49dp</dimen>
+    <dimen name="Medium_large_img_Size_Large">52dp</dimen>
+    <dimen name="Medium_large_img_Size_Extra_Large">54dp</dimen>
+    <dimen name="Medium_large_img_Size_double_Extra_Large">56dp</dimen>
+    <dimen name="Medium_large_img_Size_triple_Extra_Large">58dp</dimen>
+
+
+    <dimen name="Medium_Large2_img_Size_default">54dp</dimen>
+    <dimen name="Medium_Large2_img_Size_Small">60dp</dimen>
+    <dimen name="Medium_Large2_img_Size_Medium">62dp</dimen>
+    <dimen name="Medium_Large2_img_Size_Medium_Large">64dp</dimen>
+    <dimen name="Medium_Large2_img_Size_Large">66dp</dimen>
+    <dimen name="Medium_Large2_img_Size_Extra_Large">69dp</dimen>
+    <dimen name="Medium_Large2_img_Size_double_Extra_Large">71dp</dimen>
+    <dimen name="Medium_Large2_img_Size_triple_Extra_Large">74dp</dimen>
+
+    <dimen name="Large_img_Size_default">90dp</dimen>
+    <dimen name="Large_img_Size_Small">102dp</dimen>
+    <dimen name="Large_img_Size_Medium">106dp</dimen>
+    <dimen name="Large_img_Size_Medium_Large">110dp</dimen>
+    <dimen name="Large_img_Size_Large">115dp</dimen>
+    <dimen name="Large_img_Size_Extra_Large">120dp</dimen>
+    <dimen name="Large_img_Size_double_Extra_Large">125dp</dimen>
+    <dimen name="Large_img_Size_triple_Extra_Large">127dp</dimen>
+
+
+    <dimen name="Larger_img_Size_default">140dp</dimen>
+    <dimen name="Larger_img_Size_Small">152dp</dimen>
+    <dimen name="Larger_img_Size_Medium">157dp</dimen>
+    <dimen name="Larger_img_Size_Medium_Large">162dp</dimen>
+    <dimen name="Larger_img_Size_Large">167dp</dimen>
+    <dimen name="Larger_img_Size_Extra_Large">170dp</dimen>
+    <dimen name="Larger_img_Size_double_Extra_Large">172dp</dimen>
+    <dimen name="Larger_img_Size_triple_Extra_Large">178dp</dimen>
+
+    <dimen name="Larger7_img_Size_default">245dp</dimen>
+    <dimen name="Larger7_img_Size_Small">240dp</dimen>
+    <dimen name="Larger7_img_Size_Medium">260dp</dimen>
+    <dimen name="Larger7_img_Size_Medium_Large">255dp</dimen>
+    <dimen name="Larger7_img_Size_Large">265dp</dimen>
+    <dimen name="Larger7_img_Size_Extra_Large">275dp</dimen>
+    <dimen name="Larger7_img_Size_double_Extra_Large">290dp</dimen>
+    <dimen name="Larger7_img_Size_triple_Extra_Large">300dp</dimen>
+
+    <dimen name="Larger8_img_Size_default">72dp</dimen>
+    <dimen name="Larger8_img_Size_Small">75dp</dimen>
+    <dimen name="Larger8_img_Size_Medium">78dp</dimen>
+    <dimen name="Larger8_img_Size_Medium_Large">81dp</dimen>
+    <dimen name="Larger8_img_Size_Large">84dp</dimen>
+    <dimen name="Larger8_img_Size_Extra_Large">87dp</dimen>
+    <dimen name="Larger8_img_Size_double_Extra_Large">90dp</dimen>
+    <dimen name="Larger8_img_Size_triple_Extra_Large">95dp</dimen>
+
+
+</resources>

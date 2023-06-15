@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/customBottomBar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        app:elevation="11dp"
+        android:elevation="9dp"
+        android:background="@drawable/oval_background"
+        app:layout_constraintBottom_toBottomOf="@id/floatingBtn"
+        app:layout_constraintEnd_toEndOf="@id/floatingBtn"
+        app:layout_constraintStart_toStartOf="@id/floatingBtn"
+        app:layout_constraintTop_toTopOf="@id/floatingBtn"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="88dp"
+        android:background="@drawable/oval_background"
+        app:layout_constraintBottom_toBottomOf="@id/floatingBtn"
+        android:layout_marginTop="10dp"
+        app:elevation="9dp"
+        android:elevation="9dp"
+        app:layout_constraintEnd_toEndOf="@id/floatingBtn"
+        app:layout_constraintStart_toStartOf="@id/floatingBtn"
+        app:layout_constraintTop_toTopOf="@id/floatingBtn"
+        app:layout_constraintVertical_bias="0" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/customBottomBar"
+        style="@style/BottomNavigationTheme"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:elevation="20dp"
+        app:elevation="9dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@color/candd"
+        app:itemTextColor="@color/black"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#0e6fff"
+        android:elevation="10dp"
+        android:src="@drawable/baseline_add_24"
+        app:elevation="10dp"
+        app:fabCustomSize="80dp"
+        app:layout_constraintBottom_toBottomOf="@id/customBottomBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:maxImageSize="40dp"
+        app:shapeAppearanceOverlay="@style/WhiteOvalShape"
+        app:tint="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

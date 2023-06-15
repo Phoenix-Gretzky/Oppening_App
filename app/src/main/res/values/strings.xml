@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Opening App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="error_occurred">Something unexpected occurred. The app will now close.</string>
+    <string name="error_retry">Something unexpected occurred. Please retry.</string>
+    <string name="connectivity_issue">Please connect to the Internet and try again. The app will now close.</string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>
